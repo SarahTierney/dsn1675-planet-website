@@ -45,22 +45,12 @@ a {
   text-decoration: none;
 }
 
-.nav {
-  list-style-type: none;
-  padding: 0;
+li {
+  list-style: none;
 }
 
-.nav a {
-  display: block;
-  text-decoration: none;
-}
-
-.nav-ul{
-  list-style-type: none;
-  display: block;
-  padding: 0;
-  padding: 1.5em 0;
-
+ol {
+  padding-left: 0;
 }
 
 p {
@@ -70,34 +60,25 @@ p {
 
 
 @media only screen and (min-width: 24em) {
-
-a {
-  text-decoration: none;
-}
-
-nav {
-  text-align: center;
-}
-
-.nav {
-  list-style-type: none;
-  text-align: center;
-}
-
-.nav a {
-  text-decoration: none;
-}
-
 li {
-  float: left;
-}
+  display: inline-block;
+  padding-left: .2em;
+  }
 
+nav, h1{
+  text-align: center;
+}
 }
 
 
 @media only screen and (min-width: 35em) {
-
 h1 {
   text-align: left;
 }
+
+nav {
+  text-align: left;
+  padding-top: 1em;
+}
+
 }
