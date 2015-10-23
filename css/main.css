@@ -55,8 +55,12 @@ a {
   text-decoration: none;
 }
 
-li {
-  padding: 0.25em;
+.nav-ul{
+  list-style-type: none;
+  display: block;
+  padding: 0;
+  padding: 1.5em 0;
+
 }
 
 p {
