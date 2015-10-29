@@ -25,13 +25,10 @@ body {
 .img-flex {
   width: 100%;
   display: block;
+  padding: 0;
+  margin: 0;
 }
 
-.gutter {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 1.5rem;
-}
 
 header {
   background-color: #cccccc;
@@ -39,6 +36,7 @@ header {
 
 h1 {
   text-align: center;
+  padding-left: 1em;
 }
 
 a {
@@ -60,7 +58,6 @@ nav a:hover {
 }
 
 
-
 li {
   list-style: none;
 }
@@ -71,18 +68,35 @@ ol {
 
 p {
   margin: 0;
-  padding: 0;
+  padding: 1em;
+}
+
+h3 {
+  padding-left: 0.75em;
+  margin: 1em 0 0 0;
 }
 
 .h1 {
+  background-color: #e2e2e2;
+  text-align: center;
+  padding: 0.5 em;
+}
+
+.text {
   background-color: #e2e2e2;
   text-align: center;
   font-size: 1em;
   padding: 1em;
 }
 
+.list {
+  padding: 1em;
+}
+
+
 .efefef {
   background-color: #efefef;
+  padding-top: 0.5em;
 }
 
 .e2e2e2 {
@@ -108,6 +122,11 @@ nav {
   margin: 0.5em;
 }
 
+.gutter {
+  padding: 0;
+}
+
+
 nav, h1{
   text-align: center;
 }
@@ -121,7 +140,15 @@ h1 {
 
 nav {
   text-align: left;
-  padding-top: 1em;
+}
+
+.venus {
+  padding: 1em 1em 1em 0;
+}
+
+.text {
+  font-size: 2em;
+  padding: 0.5em;
 }
 
 }
