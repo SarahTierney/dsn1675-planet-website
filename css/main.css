@@ -102,8 +102,10 @@ img {
 }
 
 .moon {
-  padding: 1em;
+  padding: 0;
 }
+
+
 
 @media only screen and (min-width: 24em) {
  li {
