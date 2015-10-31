@@ -85,7 +85,6 @@ ol {
 
 .efefef {
   background-color: #efefef;
-  padding-top: 0.5em;
 }
 
 .e2e2e2 {
@@ -95,10 +94,6 @@ ol {
 .cccccc {
   background-color: #cccccc;
   margin-top: 1em;
-}
-
-img {
-  padding: 0.5em;
 }
 
 .moon {
@@ -116,9 +111,6 @@ nav {
   margin: 0.5em;
 }
 
-.gutter {
-  padding: 0;
-}
 
 
 nav, h1{
